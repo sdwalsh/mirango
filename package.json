@@ -1,0 +1,21 @@
+{
+  "name": "mirango",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "author": "Sean Walsh <sdwalsh@mirango.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next ./src",
+    "build": "next build ./src",
+    "start": "next start ./src"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.6",
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
